@@ -1,13 +1,13 @@
 #!/usr/bin/python
 
 import config.config as config
-import lib.comment as comment
+import lib.comment   as comment
 
 def initialize():
     comment.echo_title("initialize")
 
 def start():
-    comment.echo_title("test start")
+    comment.echo_title("start")
 
 def term():
     comment.echo_title("term")
