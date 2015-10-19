@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import config.config as config
+import config.systemConfig as config
 import lib.comment   as comment
 
 def initialize():
@@ -18,3 +18,6 @@ def main():
     term()
 
 main()
+
+
+import target.sample_category.sample_item.test_1_1
